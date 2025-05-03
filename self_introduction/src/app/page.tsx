@@ -1,5 +1,5 @@
 "use client";
-
+import Image from 'next/image';
 import { useState, useEffect } from "react";
 import Link from "next/link";
 import { motion } from "framer-motion";
@@ -7,12 +7,12 @@ import {
   Twitter,
   Linkedin,
   ChevronRight,
-  User,
+  // User,
   Briefcase,
-  BookOpen,
-  Trophy,
+  // BookOpen,
+  // Trophy,
   Code,
-  ExternalLink,
+  // ExternalLink,
 } from "lucide-react";
 import { cn } from "./lib/utils";
 
@@ -59,10 +59,17 @@ export default function Home() {
               transition={{ delay: 0.2, duration: 0.4 }}
               className="relative w-40 h-40 mx-auto md:mx-0 rounded-full overflow-hidden border-4 border-blue-500 shadow-lg"
             >
-              <img
+              {/* <img
                 src="/img/profile.jpg" // ここに画像のパスを指定
                 alt="Image"
                 className="w-full h-full object-cover"
+              /> */}
+              <Image 
+                src="/img/profile.jpg" // ここに画像のパスを指定
+                alt="Image" 
+                className="w-full h-full object-cover"
+                width={500} 
+                height={500}
               />
             </motion.div>
 

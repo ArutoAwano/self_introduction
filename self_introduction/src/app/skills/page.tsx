@@ -14,7 +14,7 @@ import {
   BarChart3,
   Cloud,
   CheckCircle2,
-  ChevronRight,
+  // ChevronRight,
 } from "lucide-react";
 
 export default function Skills() {
