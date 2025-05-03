@@ -178,7 +178,7 @@ export default function Home() {
                 お問い合わせ
               </h2>
               <p className="text-gray-700 dark:text-gray-300">
-                お仕事のご依頼やご質問がございましたら、SNSまたはメールでお気軽にご連絡ください。
+                お問い合わせやご質問がございましたら、SNSまたはメールでお気軽にご連絡ください。
               </p>
               <div className="mt-4">
                 <motion.a
