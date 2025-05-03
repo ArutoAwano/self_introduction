@@ -129,7 +129,7 @@ export default function Positions() {
                   </div>
                   <div className="flex items-center text-sm text-gray-600 dark:text-gray-400 mb-2">
                     <CalendarDays className="w-4 h-4 mr-1" />
-                    <span>2022年 - 現在</span>
+                    <span>2025/05 - 現在</span>
                   </div>
                   <p className="text-gray-700 dark:text-gray-300">
                     理科三類に在籍しており医学部に進学しようと考えています。数学、情報科学を中心に幅広い知識を身につけています。

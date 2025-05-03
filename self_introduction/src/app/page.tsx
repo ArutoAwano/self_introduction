@@ -1,5 +1,5 @@
 "use client";
-import Image from 'next/image';
+import Image from "next/image";
 import { useState, useEffect } from "react";
 import Link from "next/link";
 import { motion } from "framer-motion";
@@ -64,11 +64,11 @@ export default function Home() {
                 alt="Image"
                 className="w-full h-full object-cover"
               /> */}
-              <Image 
+              <Image
                 src="/img/profile.jpg" // ここに画像のパスを指定
-                alt="Image" 
+                alt="Image"
                 className="w-full h-full object-cover"
-                width={500} 
+                width={500}
                 height={500}
               />
             </motion.div>
